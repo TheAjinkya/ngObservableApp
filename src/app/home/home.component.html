@@ -1,0 +1,3 @@
+<p>Login First!</p>
+<button *ngIf="!loginFlag" (click)="signIn()">Login</button>
+<button *ngIf="loginFlag" (click)="signOut()">LogOut</button>
